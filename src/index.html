@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hillel home work</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="tooltip" data-tooltip="Текст для всплывающей подсказки.">
+            Наведи курсор на меня ;)
+        </div>
+
+        <div class="accordion">
+            <div class="container">
+                <div class="title">
+                    Заголовок
+                </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, delectus.
+                </div>
+            </div>
+        </div>
+        
+        <div class="tabs">
+
+                <button data-btn="#tab-1" class="tab_button active_btn" type="button">Tab-1</button>
+
+                <button data-btn="#tab-2" class="tab_button" type="button">Tab-2</button>
+
+                <button data-btn="#tab-3" class="tab_button" type="button">Tab-3</button>
+                    
+            <div class="tabs_content">
+               
+                <p id="tab-1" class="tab_content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur culpa quasi cum!</p>
+
+                <p id="tab-2" class="tab_content"  hidden>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, quos. </p>
+       
+                <p id="tab-3" class="tab_content"  hidden>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nostrum ex? </p>        
+
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
